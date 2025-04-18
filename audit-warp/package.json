@@ -1,0 +1,20 @@
+{
+  "name": "audit-warp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mysten/dapp-kit": "^0.15.6",
+    "@mysten/sui.js": "^0.54.1",
+    "@tanstack/react-query": "^5.74.4",
+    "@wormhole-foundation/sdk": "^1.15.1",
+    "next": "15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
